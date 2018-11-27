@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Simple Weight Converter App</title>
+
+  <!-- Bootstrap core CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link href="style.css" rel="stylesheet">
+
+
+</head>
+
+<body >
+<div class="container">
+  <div class="row">
+    <div class ="col-md-6 offset-md-3">
+      <h1 class="display-3 text-center"> Weight Converter</h1>
+      <form>
+          <div class="form-group mb-4">
+            <input type="number" class="form-control form-control-lg" id="lbsInput"  placeholder="Enter Pounds ...">
+            <small id="emailHelp" class="form-text text-muted">It is simple to convert weight here</small>
+          </div>
+          </form>
+          <div id="mona">
+          <div id="output mb-4">
+                  <div class="card bg-primary mb-2">
+                    <div class='card-block'>
+                      <h4>Grams: </h4>
+                      <div id='gramsOutput'>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="card bg-danger mb-2">
+                        <div class='card-block '>
+                          <h4>Kilograms: </h4>
+                          <div id='kilogramsOutput'>
+                          </div>
+                        </div>
+                  </div>
+            
+                  <div class="card bg-success mb-2">
+                      <div class='card-block'>
+                        <h4>Ounces: </h4>
+                        <div id='ouncesOutput'>
+                        </div>
+                    </div>
+                </div>   
+
+          </div>
+        </div>
+   
+  </div>    
+</div>
+</div>
+  <script src="main.js"></script>
+</body>
+
+</html>
